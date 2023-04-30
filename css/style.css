@@ -36,3 +36,154 @@ li a {
     font-size: 2.5rem;
     color: #FDD504;
 }
+
+/* main section  */
+
+/* first div  */
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #13345B;
+    margin-top: 104px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+    padding: 88px 75px 129px 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.first_div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.input_box {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.first_div_lable {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #13345B;
+}
+
+.first_div_input {
+    height: 58px;
+    border: none;
+    outline: none;
+    background-color: #B3E9F5;
+    font-size: 2rem;
+}
+
+::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+/* second div  */
+
+.second_div {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 39px;
+    color: #15C1E7;
+    margin-bottom: 32px;
+}
+
+.main_radio_div {
+    display: flex;
+    gap: 60px;
+}
+
+.radio_div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.second_div_input {
+    height: 32px;
+    width: 32px;
+    color: #13345B;
+}
+
+.main_checkbox_div {
+    display: flex;
+    gap: 60px;
+}
+
+.checkbox_div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.second_div_input2 {
+    height: 32px;
+    width: 32px;
+    border-radius: 30px;
+
+}
+
+.second_div_lable {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 24px;
+    color: #13345B;
+}
+
+.second_div_input3 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 39px;
+}
+
+input::-webkit-file-upload-button{
+    padding: 11px 23px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+/* third div  */
+
+.third_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third_div_button {
+    width: 49%;
+    height: 108px;
+    background-color: #FDD504;
+    font-size: 2.25rem;
+    line-height: 44px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+}
+
+.restart {
+    background-color: #15C1E7;
+}

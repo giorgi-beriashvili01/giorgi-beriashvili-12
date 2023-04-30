@@ -14,35 +14,132 @@
 </head>
 
 <body>
-<div class="container"> 
+  <div class="container">
 
-<!-- header  -->
+    <!-- header  -->
 
-  <header>
-    <a href="index.html">
-      <img src="images/logo.svg" alt="">
-    </a>
+    <header>
+      <a href="index.html">
+        <img src="images/logo.svg" alt="">
+      </a>
 
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="index.html">Product</a>
-        </li>
-        <li>
-          <a class="contact" href="images/">contact</a>
-        </li>
-      </ul>
-    </nav>
-    <i class="fa-solid fa-cart-shopping"></i>
-  </header>
-
-
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="index.html">Product</a>
+          </li>
+          <li>
+            <a class="contact" href="images/">contact</a>
+          </li>
+        </ul>
+      </nav>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </header>
 
 
-</div>
+    <!-- main section  -->
+
+    <h2>Contact Us</h2>
+
+    <!-- first div  -->
+
+    <form>
+      <div class="first_div">
+        <div class="input_box">
+          <label class="first_div_lable" for="NAME">FIRST NAME</label>
+          <input class="first_div_input" type="text" name="firstname" id="NAME" placeholder="First Name">
+        </div>
+
+        <div class="input_box">
+          <label class="first_div_lable" for="lats">LAST NAME</label>
+          <input class="first_div_input" type="text" name="lastname" id="last" placeholder="Last Name">
+        </div>
+
+        <div class="input_box">
+          <label class="first_div_lable" for="AGE">AGE</label>
+          <input class="first_div_input" type="text" name="age" id="AGE" placeholder="Age">
+        </div>
+
+        <div class="input_box">
+          <label class="first_div_lable" for="EMAIL">EMAIL</label>
+          <input class="first_div_input" type="email" name="email" id="EMAIL" placeholder="Email Address">
+        </div>
+      </div>
+
+      <!-- second div  -->
+
+      <div class="second_div">
+
+        <div>
+          <h4>The schedule of work you are interested in</h4>
+
+          <div class="main_radio_div">
+            <div class="radio_div">
+              <input class="second_div_input" type="radio" id="schedule" name="time" value="full-time">
+              <label class="second_div_lable" for="schedule">Full-Time</label>
+            </div>
+            <div class="radio_div">
+              <input class="second_div_input" type="radio" id="schedule" name="time" value="part-time">
+              <label class="second_div_lable" for="schedule">Part-Time</label>
+            </div>
+            <div class="radio_div">
+              <input class="second_div_input" type="radio" id="schedule" name="time" value="remote">
+              <label class="second_div_lable" for="schedule">Remote</label>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div>
+          <h4>Select the programming languages, you know</h4>
+  
+          <div class="main_checkbox_div">
+            <div class="checkbox_div">
+              <input class="second_div_input2" type="checkbox" id="languages" name="language" value="angulad">
+              <label class="second_div_lable" for="languages">Angular</label>
+            </div>
+            <div class="checkbox_div">
+  
+              <input class="second_div_input2" type="checkbox" id="languages" name="language" value="python">
+              <label class="second_div_lable" for="languages">Python</label>
+            </div>
+            <div class="checkbox_div">
+              <input class="second_div_input2" type="checkbox" id="languages" name="language" value="javascript">
+              <label class="second_div_lable" for="languages">Javascript</label>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div>
+          <h4>Attach any supporting documents (resume, CV, cover letter, etc.) </h4>
+
+          <input class="second_div_input3" type="file" id="documents">
+        </div>
+
+      </div>
+
+     
+    
+      <!-- third div  -->
+
+      <div class="third_div">
+        <button class="third_div_button" type="submit">SEND MESSAGE</button>
+        <button class="third_div_button restart" type="reset">RESET</button>
+      </div>
+
+    </form>
+
+
+
+
+
+  </div>
 
 </body>
 
