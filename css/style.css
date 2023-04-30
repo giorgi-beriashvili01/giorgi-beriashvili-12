@@ -1,0 +1,38 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+
+}
+
+/* header  */
+
+header {
+    width: 100%;
+    padding: 47px 75px;
+    background-color: #13345B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 52px;
+}
+
+li a {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #FDD504;
+}
+
+.contact {
+    color: #FD0404;
+}
+
+.fa-cart-shopping {
+    font-size: 2.5rem;
+    color: #FDD504;
+}
