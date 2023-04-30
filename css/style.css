@@ -187,3 +187,12 @@ input::-webkit-file-upload-button{
 .restart {
     background-color: #15C1E7;
 }
+
+/* footer  */
+
+footer{
+    padding: 60px 470px;
+    background-color: #13345B;
+    display: flex;
+    justify-content: space-between;
+}
